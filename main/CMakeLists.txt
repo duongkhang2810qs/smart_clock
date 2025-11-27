@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "display.c"
+        "time.c"
+        "wifi.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        max7219
+        esp_wifi
+        esp_netif
+        esp_event
+        lwip
+        nvs_flash
+)
