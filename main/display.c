@@ -7,7 +7,7 @@
 #include "driver/gpio.h"
 
 #include "max7219.h"
-#include "time.h"
+#include "time_svc.h"
 #include "display.h"
 
 static const char *TAG = "display";

@@ -2,7 +2,7 @@ idf_component_register(
     SRCS
         "main.c"
         "display.c"
-        "time.c"
+        "time_svc.c"
         "wifi.c"
     INCLUDE_DIRS
         "."

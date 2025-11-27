@@ -8,9 +8,9 @@
 
 #include "wifi.h"
 #include "display.h"
-#include "time.h"
+#include "time_svc.h"
 
-static const char *TAG = "Smart_Lock";
+static const char *TAG = "Smart_Clock";
 
 /* ====== CẤU HÌNH – CHỈ SỬA Ở ĐÂY ====== */
 #define WIFI_SSID        "WillSun"
