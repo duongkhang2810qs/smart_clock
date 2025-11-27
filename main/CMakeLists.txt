@@ -1,16 +1,20 @@
 idf_component_register(
     SRCS
         "main.c"
-        "display.c"
-        "time_svc.c"
         "wifi.c"
+        "time_svc.c"
+        "display.c"
+        "button.c"
+        "buzzer.c"
+        "dht_sensor.c"
     INCLUDE_DIRS
         "."
     REQUIRES
-        max7219
+        freertos
         esp_wifi
         esp_netif
-        esp_event
-        lwip
         nvs_flash
+        driver
+        max7219
+        dht
 )

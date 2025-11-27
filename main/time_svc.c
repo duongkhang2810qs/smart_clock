@@ -8,9 +8,6 @@
 
 static const char *TAG = "Time";
 
-/* Định nghĩa handle mutex (chỉ 1 nơi duy nhất). */
-SemaphoreHandle_t xTimeMutex = NULL;
-
 /* Thời gian giả lập. */
 static uint8_t ucHour   = 12;
 static uint8_t ucMinute = 0;
